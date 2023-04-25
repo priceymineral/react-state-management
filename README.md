@@ -1,10 +1,10 @@
 # State Management Using React, NodeJS
 
-React application using small, medium and small state management technologies
+React application using small, medium and large state management technologies.
 
 ## Description
 
-State can be manages in multiple ways, some, such as Redux, useState, Context, Recoil, and MobX are explored here.
+State can be managed in multiple ways depending on size, and other factors. Some ways to manage state such as Redux, useState, Context, Recoil, and MobX are explored here.
 
 ## Getting Started
 
@@ -12,6 +12,7 @@ State can be manages in multiple ways, some, such as Redux, useState, Context, R
 
 * NodeJS - https://nodejs.org/
 * Redux - https://redux.js.org/
+* TBC...
 
 ### Installing
 * Clone repository
