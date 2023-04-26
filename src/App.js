@@ -1,11 +1,15 @@
 import { CounterButton } from './CounterButton';
 import './App.css';
+import { CounterProvider } from './CounterProvider';
 
 const App = () => {
 	return (
 		<>
-		<h1>State Management Example</h1>
-		<CounterButton />
+			<CounterProvider>
+				<h1>State Management Example</h1>
+				<CounterButton />
+				<CounterButton />
+			</CounterProvider>
 		</>
 	);
 }
