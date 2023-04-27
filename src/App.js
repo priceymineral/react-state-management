@@ -1,11 +1,17 @@
+import { RecoilRoot } from 'recoil';
 import { CounterButton } from './CounterButton';
 import './App.css';
+import { DisplayCount } from './DisplayCount';
 
 const App = () => {
 	return (
 		<>
-		<h1>State Management Example</h1>
-		<CounterButton />
+			<RecoilRoot>
+				<h1>State Management Example</h1>
+				<DisplayCount />
+				<CounterButton />
+				<CounterButton />
+			</RecoilRoot>
 		</>
 	);
 }
